@@ -1,5 +1,5 @@
 // Initialize your app
-var SafarexApp = new Framework7({
+var SafarexApps = new Framework7({
     modalTitle: 'My App',
     // If it is webapp, we can enable hash navigation:
     pushState: true,
@@ -29,10 +29,10 @@ var SafarexApp = new Framework7({
 	
     // Hide and show indicator during ajax requests
     onAjaxStart: function (xhr) {
-        SafarexApp.showIndicator();
+        SafarexApps.showIndicator();
     },
     onAjaxComplete: function (xhr) {
-        SafarexApp.hideIndicator();
+        SafarexApps.hideIndicator();
     },
 
 });
@@ -40,17 +40,17 @@ var SafarexApp = new Framework7({
 // Export selectors engine
 var $$ = Dom7;
 // Add view
-var mainView = SafarexApp.addView('.view-main', {
+var mainView = SafarexApps.addView('.view-main', {
    domCache: true,
 });
 
 
 var RequestURL ='https://www.adivaha.com/demo/MobAppRequest';
-var TPHotelUrl ='http://apphotel.safarex.com/hotels';
-var TPFlightUrl ='http://appflight.safarex.com/flights';
-var marker='155364';
+var TPHotelUrl ='//apphotel.safarex.com/hotels';
+var TPFlightUrl ='//appflight.safarex.com/flights';
+var marker='195389';
 
-SafarexApp.onPageInit('index', function (page) {
+SafarexApps.onPageInit('index', function (page) {
 $$('.pageFlashLoaderKK').show();	
 setTimeout(function(){ $$('.pageFlashLoaderKK').hide('slow'); }, 3000);	
 
@@ -133,7 +133,7 @@ if(page.name=='search-hotels'){
 	var monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun","Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 	
     var today =new Date();
-	var calendarRange = SafarexApp.calendar({
+	var calendarRange = SafarexApps.calendar({
     input: '#appCalendar',
     dateFormat: 'M dd yyyy',
     rangePicker: true,
@@ -323,7 +323,7 @@ if(page.name=='search-hotels'){
   
   
   /*=== Auto suggetion ===*/
-  var autocompleteDropdownAjax = SafarexApp.autocomplete({
+  var autocompleteDropdownAjax = SafarexApps.autocomplete({
 	opener: $$('#autocomplete-standalone-popup'),
     openIn: 'popup',
 	backOnSelect: true,
@@ -380,8 +380,8 @@ if(page.name=='search-hotels'){
   
    var hotelObject = [];
    $$('.findHotelResults').on('click', function(e){
-	   var formData = SafarexApp.formToData('#searchHotel_frm');
-	   SafarexApp.formStoreData('HotelRequestData',formData);
+	   var formData = SafarexApps.formToData('#searchHotel_frm');
+	   SafarexApps.formStoreData('HotelRequestData',formData);
 	  
 	 var adults =$$('#adults_0').val(); 
 	 var childs =$$('#childs_0').val();
@@ -430,7 +430,7 @@ if(page.name=='search-flights'){
     var weekday = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
 	var monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun","Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
     var today =new Date();
-	var calendarRange = SafarexApp.calendar({
+	var calendarRange = SafarexApps.calendar({
 	input: '#appCalendar',
 	dateFormat: 'M dd yyyy',
 	rangePicker: true,
@@ -455,7 +455,7 @@ if(page.name=='search-flights'){
 	   }
 	});	
    /*=== Activity Auto suggetion ===*/	
-   var autocompleteDropdownAjax = SafarexApp.autocomplete({
+   var autocompleteDropdownAjax = SafarexApps.autocomplete({
 	opener: $$('#autocomplete-standalone-popup'),
 	openIn: 'popup',
 	backOnSelect: true,
@@ -501,7 +501,7 @@ if(page.name=='search-flights'){
 	}
   });
 
-  var autocompleteDropdownAjax = SafarexApp.autocomplete({
+  var autocompleteDropdownAjax = SafarexApps.autocomplete({
 	opener: $$('#autocomplete-standalone-popup-to'),
 	openIn: 'popup',
 	backOnSelect: true,
