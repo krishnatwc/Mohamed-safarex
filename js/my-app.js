@@ -46,8 +46,8 @@ var mainView = SafarexApps.addView('.view-main', {
 
 
 var RequestURL ='https://www.adivaha.com/demo/MobAppRequest';
-var TPHotelUrl ='//apphotel.safarex.com/hotels';
-var TPFlightUrl ='//appflight.safarex.com/flights';
+var TPHotelUrl ='https://apphotel.safarex.com/hotels';
+var TPFlightUrl ='https://appflight.safarex.com/flights';
 var marker='195389';
 
 SafarexApps.onPageInit('index', function (page) {
