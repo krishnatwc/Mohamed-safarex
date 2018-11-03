@@ -84,7 +84,7 @@ var htmlFlight ='<div class="history-home-page-main-left">'+
 				'<div class="history-home-page-main-right">'+
 				  '<div class="history-recents">'+
 						'<div class="history-recents-left">'+
-						 '<a href="'+TPFlightUrl+'?marker='+marker+'&origin_name=Delhi,%20India&origin_iata=DEL&destination_name=Goa,%20India&destination_iata=GOI&depart_date='+checkIn+'&return_date=&Flights_Return_direct=enable&with_request=true&adults=1&children=0&infants=0&trip_class=0&currency=USD&locale=en&one_way=true&ct_guests=1passenger&ct_rooms=1" class="link external"><div class="deltopatfri">'+
+						 '<a href="'+TPFlightUrl+'?marker='+marker+'&origin_name=London%20Heathrow%20Airport&origin_iata=LHR&destination_name=Dubai%20Airport&destination_iata=DXB&depart_date='+checkIn+'&return_date=&Flights_Return_direct=enable&with_request=true&adults=1&children=0&infants=0&trip_class=0&currency=USD&locale=en&one_way=true&ct_guests=1passenger&ct_rooms=1" class="link external"><div class="deltopatfri">'+
 							'<div class="deltopatfri1">'+
 								'<span>LHR</span> <span><i class="fa fa-arrow-right"></i></span> <span>DXB</span>'+
 								'</div>'+
