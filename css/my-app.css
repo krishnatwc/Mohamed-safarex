@@ -73,7 +73,7 @@
 
 
 img.ks-demo-lazy {display: block;width: 100%;height: auto;}
-.boxPage-title{color: #fff;background-color: #393939;margin: 0px;padding: 16px;text-align: left;position: relative; padding-left: 44px;}
+.boxPage-title{color: #fff;background-color: #1b559e;margin: 0px;padding: 16px;text-align: left;position: relative; padding-left: 44px;}
 .BoxPageForm{width: 100%;float: left;}
 .BoxPageBorder-bottom{border-bottom: 1px solid #ccc;padding-bottom: 12px;margin-top: 18px;}
 .BoxPageDelhi{ font-size: 20px;color: #000;font-weight: 550;}	
@@ -467,7 +467,7 @@ img.ks-demo-lazy {display: block;width: 100%;height: auto;}
 .calendarDatein .BoxPageLoc,
 .calendarDateout .BoxPageLoc{font-size: 16px;color: #848383;}
 .btnHotelrel{clear: both;overflow: hidden;position: fixed;bottom: -3px;left: 0px;right: 0px;}
-.btnHotelrel a{display: inline-block;text-align: center;width: 100%;color: #fff;padding: 15px 0px;font-size: 18px;background-color:#1b559e;}	
+.btnHotelrel a{display: inline-block;text-align: center;width: 100%;color: #fff;padding: 15px 0px;font-size: 18px;background-color:#FF9800;}	
 .HotelDiVBox-last .HotelDiVBoxRight{border-bottom: 0px;}
 #searchHotel_frm {margin-top:30px; }
 .boxleftDse{}
@@ -589,7 +589,7 @@ margin-top: 10%;}
 .navbar .left{cursor: pointer;}
 .SearchPagetile .buttons-row a i{color: #fff; font-size: 9px;}
 .HotelDiVBoxLeft .material-icons{font-size: 27px;position: relative;top: 16px;}	
-.flightRound{width: 100%;float: left;background-color: #192044;}	
+.flightRound{width: 100%;float: left;background-color: #FFC107;}	
 .flightRound a{text-align: center;width: 50%;float: left;color: #fff;font-size: 14px;    position: relative;box-sizing: border-box;padding: 10px;}	
 .flightRound a i{position: absolute;    margin: 0px -29px;}
 .flightRound .active{background-color: #fd9800;}	
