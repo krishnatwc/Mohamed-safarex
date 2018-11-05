@@ -458,7 +458,7 @@ img.ks-demo-lazy {display: block;width: 100%;height: auto;}
     width: 100%;
     display: inline-block;}
 .HotelDiVBoxRight .PseitelDes{margin: 0px;font-size: 22px; color: #000;}
-.HotelDiVBoxLeft .fa{font-size: 18px;position: relative;top: 16px;}
+.HotelDiVBoxLeft .fa{font-size: 18px;position: relative;top: 30px;}
 .paddingNOne{padding:0px;margin: 0px;}
 .calendarDatein{float: left;width: 47%;border-right: 1px solid #c2c2c2;}
 .calendarDateout{float: right;width: 48%;border-right: 0px solid #c2c2c2;}
@@ -588,7 +588,7 @@ margin-top: 10%;}
 
 .navbar .left{cursor: pointer;}
 .SearchPagetile .buttons-row a i{color: #fff; font-size: 9px;}
-.HotelDiVBoxLeft .material-icons{font-size: 27px;position: relative;top: 16px;}	
+.HotelDiVBoxLeft .material-icons{font-size: 27px;position: relative;top: 0px;}	
 .flightRound{width: 100%;float: left;background-color: #FFC107;}	
 .flightRound a{text-align: center;width: 50%;float: left;color: #fff;font-size: 14px;    position: relative;box-sizing: border-box;padding: 10px;}	
 .flightRound a i{position: absolute;    margin: 0px -29px;}
