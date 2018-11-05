@@ -317,8 +317,9 @@ if(page.name=='search-hotels'){
 	}
 	
 	var rooms =$$('#number_of_rooms').val();
-   	$$('#roomGuestTxt').html(rooms+' Rooms, '+guest+' Guests ');
-	$$('#selectedDest_adults').html(guest+' Guests, '+rooms+' Rooms');
+   	//$$('#roomGuestTxt').html(rooms+' Rooms, '+guest+' Guests ');
+	$$('#roomGuestTxt').html(guest+' Guests ');
+	$$('#selectedDest_adults').html(guest+' Guests');
   }
   
   
